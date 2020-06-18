@@ -2,7 +2,7 @@
 #include<linux/module.h>
 int ex01_simple_module_init(void)
 {
-	printk(KERN_ALERT"Inside the %sfunction",__FUNCTION__);
+	printk(KERN_ALERT"Inside the %s function",__FUNCTION__);
 	return 0;
 }
 void ex01_simple_module_exit(void)
